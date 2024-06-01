@@ -1,0 +1,33 @@
+/* Path: LittleBlueHouse.github.io/style.css */
+
+html {
+    /* Font */
+  font-family: 'Garamond';
+  
+    /* Colors */
+  color: #050447;
+  background-color: #c2f0f0;
+
+    /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.genText {
+    /* Font */
+  font-style: italic;
+}
+
+li {
+    /* Font */
+  font-weight: bold;
+  margin: 10px;
+  list-style-type: none;
+}
