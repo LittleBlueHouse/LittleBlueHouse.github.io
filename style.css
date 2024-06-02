@@ -36,15 +36,7 @@ li {
   list-style-type: none;
 }
 
-.headerButton {
-    /* Font */
-  font-weight: bold;
-  background-color: var(--secondary-color);
-  margin: var(--margin);
-  padding: var(--margin);
-}
-
-#headerControls {
+#headerControlContainer {
     /* Display */
   display: flex;
   flex-direction: row;
@@ -52,4 +44,19 @@ li {
   background-color: var(--main-color);
   margin: var(--margin);
   padding: var(--margin);
+}
+
+.headerButton {
+    /* Font */
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  margin: var(--margin);
+  padding: var(--margin / 2);
+  padding: calc(var(--margin) / 2);
+}
+
+#homeButton {
+    /* Display */
+  margin: var(--margin);
+  padding: 0px;
 }
