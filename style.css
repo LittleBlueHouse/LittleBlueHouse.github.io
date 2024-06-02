@@ -54,9 +54,3 @@ li {
   padding: var(--margin / 2);
   padding: calc(var(--margin) / 2);
 }
-
-#homeButton {
-    /* Display */
-  margin: var(--margin);
-  padding: 0px;
-}
