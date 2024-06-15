@@ -1,0 +1,56 @@
+/* Path: LittleBlueHouse.github.io/style.css */
+
+:root {
+    /* Colors */
+  --main-color: #050447;
+  --secondary-color: #c2f0f0;
+  --margin: 1%;
+}
+
+html {
+    /* Font */
+  font-family: 'Garamond';
+  
+    /* Colors */
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+
+    /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: var(--margin);
+}
+
+.genText {
+    /* Font */
+  font-style: italic;
+}
+
+li {
+    /* Font */
+  font-weight: bold;
+  margin: 10px;
+  list-style-type: none;
+}
+
+#headerControlContainer {
+    /* Display */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--main-color);
+  margin: var(--margin);
+  padding: var(--margin);
+}
+
+.headerButton {
+    /* Font */
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  margin: var(--margin);
+  padding: var(--margin / 2);
+  padding: calc(var(--margin) / 2);
+}
