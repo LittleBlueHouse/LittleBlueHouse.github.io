@@ -7,17 +7,19 @@
 A year of plenty, and then some more, \
 One for the books, twenty-twenty four. \
 Our lil' blue house became a new home \
-for another crazy dog and a mix of genomes
+Another crazy dog and a mix of genomes
 
 First, we kissed, then we wed \
-Called the stork, from our bed \
-God blessed we've been \
-With our little Jacquelyn.
+Got a call from the stork while in our bed: \
+"This December, God blessed you'll be \
+With a little one, sweet Jackie"
 
 About to awake is twenty twenty-five \
 Year of the snake, time of our lives. \
-We'll be nesting, resting, and breasting, \
-But in between, come by and sing.   
+To be filled with nesting, resting, and breasting; \
+Perhaps in the spring, come see the best thing.
+
+James, Riley, Jacquelyn, Dakota, and Crab Elder
 
 </center>
 
