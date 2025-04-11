@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>My Library</h1>
+
+  <!-- Book form -->
+  <form id="bookForm">
+    <input type="text" name="title" id="title" placeholder="Title" />
+    <input type="text" name="author" id="author" placeholder="Author" />
+    <input type="text" name="isbn" id="isbn" placeholder="ISBN" />
+    <input type="text" name="coverUrl" id="coverUrl" placeholder="Cover URL (optional)" />
+    <input type="text" name="location" id="location" placeholder="Location (e.g., Shelf B3)" />
+    <select name="status" id="status">
+      <option value="owned">Owned</option>
+      <option value="borrowed">Borrowed</option>
+      <option value="wishlist">Wishlist</option>
+    </select>
+    <button type="submit">Add Book</button>
+  </form>
+
+  <div id="filters">
+    <label for="titleFilter">Title: </label>
+    <input type="text" id="titleFilter" placeholder="Search by title" />
+  
+    <label for="authorFilter">Author: </label>
+    <input type="text" id="authorFilter" placeholder="Search by author" />
+  
+    <label for="statusFilter">Status: </label>
+    <select id="statusFilter">
+      <option value="">All</option>
+      <option value="Not Read">Not Read</option>
+      <option value="Reading">Reading</option>
+      <option value="Completed">Completed</option>
+    </select>
+  
+    <label for="locationFilter">Location: </label>
+    <input type="text" id="locationFilter" placeholder="Search by location" />
+  </div>
+  
+  <div id="library"></div>
+  
+
+  <!-- Book list display -->
+  <div id="bookList"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
